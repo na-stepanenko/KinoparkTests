@@ -9,9 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-/**
- * Created by Anastasia on 28/12/2015.
- */
+
 public class PersonalPage extends AbstractPage {
 
     private final Logger logger = Logger.getLogger(PersonalPage.class);

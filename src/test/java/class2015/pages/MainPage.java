@@ -6,9 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by Anastasia on 28/12/2015.
- */
 public class MainPage extends AbstractPage {
 
     private final Logger logger = Logger.getLogger(MainPage.class);
@@ -18,7 +15,7 @@ public class MainPage extends AbstractPage {
     @FindBy(xpath = "//input[@name = 'q']")
     private WebElement searchField;
 
-    @FindBy(xpath = "//input[@value = 'Найти']")
+    @FindBy(xpath = "//input[@class = 'srb']")
     private WebElement searchButton;
 
     @FindBy(xpath = "//div[@id = 'film_info']//h1")

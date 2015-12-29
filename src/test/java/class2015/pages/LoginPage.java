@@ -9,9 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by Anastasia on 28/12/2015.
- */
+
 public class LoginPage extends AbstractPage {
     private final Logger logger = Logger.getLogger(LoginPage.class);
 

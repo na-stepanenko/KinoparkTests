@@ -8,9 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.UUID;
 
-/**
- * Created by Anastasia on 22/12/2015.
- */
+
 public class KinoparkAutomationTest {
     private Steps steps;
     private static final String LOGIN = "AsyaGrape";
@@ -36,11 +34,12 @@ public class KinoparkAutomationTest {
         Assert.assertTrue(steps.loggedIn(USERNAME));
     }
 
-    @Test(description = "Successful search")
+   @Test(description = "Successful search")
     public void successfulSearch() {
         steps.search(FILM_NAME);
         Assert.assertTrue(steps.isSuccessfulSearch(FILM_NAME));
     }
+
 
     @Test(description = "Set film rating")
     public void setFilmRating() {
