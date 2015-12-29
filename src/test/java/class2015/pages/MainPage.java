@@ -18,7 +18,7 @@ public class MainPage extends AbstractPage {
     @FindBy(xpath = "//input[@class = 'srb']")
     private WebElement searchButton;
 
-    @FindBy(xpath = "//div[@id = 'film_info']//h1")
+    @FindBy(xpath = "//div[@class = 'body']//h1")
     private WebElement filmNameHeader;
 
     public MainPage(WebDriver driver) {
